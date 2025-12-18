@@ -40,11 +40,11 @@ app = FastAPI(
     description="Système d'analyse automatisée des évaluations de formation avec NLP multilingue"
 )
 
-# CORS
+# CORS - TEMPORARILY ALLOW ALL FOR DEBUGGING
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.BACKEND_CORS_ORIGINS,
-    allow_credentials=True,
+    allow_origins=["*"],  # Temporarily allow all origins for debugging
+    allow_credentials=False,  # Must be False when using wildcard origin
     allow_methods=["*"],
     allow_headers=["*"],
 )

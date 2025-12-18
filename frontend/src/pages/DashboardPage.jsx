@@ -14,6 +14,7 @@ import api from '../services/api';
 import SentimentChart from '../components/charts/SentimentChart';
 import ThemeCategories from '../components/charts/ThemeCategories';
 import TrendsChart from '../components/charts/TrendsChart';
+import ComparisonChart from '../components/charts/ComparisonChart';
 
 export default function DashboardPage() {
     const { data: stats, isLoading } = useQuery({
@@ -56,11 +57,18 @@ export default function DashboardPage() {
             color: 'primary',
         },
         {
-            label: 'Applicabilité',
-            value: stats?.avg_applicabilite?.toFixed(2) || '0',
+            label: 'Logistique',
+            value: stats?.avg_logistique?.toFixed(2) || '0',
             suffix: '/5',
             icon: Users,
             color: 'warning',
+        },
+        {
+            label: 'Applicabilité',
+            value: stats?.avg_applicabilite?.toFixed(2) || '0',
+            suffix: '/5',
+            icon: TrendingUp,
+            color: 'success',
         },
     ];
 
@@ -89,7 +97,7 @@ export default function DashboardPage() {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-in">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 animate-fade-in">
                 {statCards.map((stat, idx) => {
                     const Icon = stat.icon;
                     return (
@@ -109,6 +117,15 @@ export default function DashboardPage() {
                         </div>
                     );
                 })}
+            </div>
+
+            {/* Comparison Chart */}
+            <div className="card animate-fade-in">
+                <div className="card-header">
+                    <h3 className="text-lg font-semibold">Comparaison des Critères</h3>
+                    <p className="text-sm text-gray-500 mt-1">Moyennes sur tous les critères d'évaluation</p>
+                </div>
+                <ComparisonChart data={stats} />
             </div>
 
             {/* Charts Row */}

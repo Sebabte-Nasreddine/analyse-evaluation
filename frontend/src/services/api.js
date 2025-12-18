@@ -3,6 +3,9 @@
  */
 import axios from 'axios';
 
+// IMPORTANT: When accessing from browser, we need the full URL
+// The Vite proxy only works for requests made by the Vite dev server itself
+// not for requests made by the browser
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
 
 const apiClient = axios.create({

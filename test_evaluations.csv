@@ -1,0 +1,26 @@
+evaluation_id,formation_id,type_formation,formateur_id,satisfaction,contenu,logistique,applicabilite,commentaire,langue,date
+EVAL001,F001,Lean Six Sigma,FOR01,5,5,4,5,"Excellente formation! Le formateur était très compétent et les exemples pratiques très utiles.",FR,2024-03-15
+EVAL002,F001,Lean Six Sigma,FOR01,4,4,3,4,"Bonne formation mais la salle était un peu petite.",FR,2024-03-15
+EVAL003,F002,SAP,FOR02,5,5,5,4,"التدريب كان ممتازاً جداً، المحتوى شامل والمدرب محترف",AR,2024-03-16
+EVAL004,F002,SAP,FOR02,3,3,4,3,"المحتوى جيد ولكن يحتاج المزيد من التطبيق العملي",AR,2024-03-16
+EVAL005,F003,Soft Skills,FOR03,5,5,5,5,"Formation mezyana bezzaf! Kont kan3lem bzaf dial l7wayej jdad.",DARIJA,2024-03-17
+EVAL006,F003,Soft Skills,FOR03,4,4,4,4,"Kanet formation zwina, walakin kant twila chwiya.",DARIJA,2024-03-17
+EVAL007,F004,Management,FOR04,2,2,3,2,"Formation décevante. Le contenu était trop théorique et manquait d'exemples concrets.",FR,2024-03-18
+EVAL008,F004,Management,FOR04,3,3,3,3,"Contenu acceptable mais l'applicabilité reste limitée.",FR,2024-03-18
+EVAL009,F005,Communication,FOR05,5,5,4,5,"المدرب رائع والأمثلة كانت واقعية جداً",AR,2024-03-19
+EVAL010,F005,Communication,FOR05,4,5,3,4,"محتوى ممتاز ولكن القاعة كانت غير مريحة",AR,2024-03-19
+EVAL011,F006,Leadership,FOR01,5,5,5,5,"Une des meilleures formations que j'ai suivies. Très structurée et interactive.",FR,2024-03-20
+EVAL012,F006,Leadership,FOR01,5,4,5,4,"Formateur très engageant. J'ai beaucoup appris sur le leadership transformationnel.",FR,2024-03-20
+EVAL013,F007,Soft Skills,FOR06,1,1,2,1,"Formation kanet khayba bezzaf. Walo ma kont kan3lem.",DARIJA,2024-03-21
+EVAL014,F007,Soft Skills,FOR06,2,2,3,2,"Makanetch mezyana, bzaf dial lwaqtضائع.",DARIJA,2024-03-21
+EVAL015,F008,SAP,FOR02,4,4,4,4,"تدريب جيد بشكل عام مع تطبيقات عملية مفيدة",AR,2024-03-22
+EVAL016,F008,SAP,FOR02,5,5,4,5,"المحتوى شامل جداً والمدرب كان صبوراً في الشرح",AR,2024-03-22
+EVAL017,F009,Lean Six Sigma,FOR07,3,3,3,3,"Formation moyenne. Rien d'exceptionnel mais pas mauvaise non plus.",FR,2024-03-23
+EVAL018,F009,Lean Six Sigma,FOR07,4,4,3,4,"Bon contenu théorique mais manque de cas pratiques dans notre domaine.",FR,2024-03-23
+EVAL019,F010,Management,FOR04,2,2,2,2,"التدريب كان مملاً ولم يضف قيمة حقيقية",AR,2024-03-24
+EVAL020,F010,Management,FOR04,3,3,3,2,"محتوى قديم يحتاج إلى تحديث",AR,2024-03-24
+EVAL021,F011,Communication,FOR05,5,5,5,5,"Formation parfaite! J'ai acquis des compétences directement applicables.",FR,2024-03-25
+EVAL022,F011,Communication,FOR05,5,5,4,5,"Le formateur a su rendre la formation interactive et captivante.",FR,2024-03-25
+EVAL023,F012,Leadership,FOR08,4,4,4,4,"Formation kanet mzyana, instructor kan experienced bezzaf.",DARIJA,2024-03-26
+EVAL024,F012,Leadership,FOR08,3,4,3,3,"Mzyana walakin kannet chwiya difficult bach nfehmo.",DARIJA,2024-03-26
+EVAL025,F013,Soft Skills,FOR03,5,5,5,5,"غنيت bzaf من هاد formation. Kanet top!",DARIJA,2024-03-27

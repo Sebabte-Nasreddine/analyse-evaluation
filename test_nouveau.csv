@@ -1,0 +1,9 @@
+evaluation_id,formation_id,type_formation,formateur_id,satisfaction,contenu,logistique,applicabilite,commentaire,langue,date
+NEW001,F101,Lean Six Sigma,FOR01,5,5,4,5,"Excellente formation! Le formateur était très compétent et les exemples pratiques très utiles.",FR,2024-12-15
+NEW002,F101,Lean Six Sigma,FOR01,4,4,3,4,"Bonne formation mais la salle était un peu petite.",FR,2024-12-15
+NEW003,F102,SAP,FOR02,5,5,5,4,"التدريب كان ممتازاً جداً، المحتوى شامل والمدرب محترف",AR,2024-12-16
+NEW004,F102,SAP,FOR02,3,3,4,3,"المحتوى جيد ولكن يحتاج المزيد من التطبيق العملي",AR,2024-12-16
+NEW005,F103,Soft Skills,FOR03,5,5,5,5,"Formation mezyana bezzaf! Kont kan3lem bzaf dial l7wayej jdad.",DARIJA,2024-12-17
+NEW006,F103,Soft Skills,FOR03,4,4,4,4,"Kanet formation zwina walakin kant twila chwiya.",DARIJA,2024-12-17
+NEW007,F104,Management,FOR04,2,2,3,2,"Formation décevante. Le contenu était trop théorique et manquait d'exemples concrets.",FR,2024-12-18
+NEW008,F104,Management,FOR04,3,3,3,3,"Contenu acceptable mais l'applicabilité reste limitée.",FR,2024-12-18

@@ -1,0 +1,4 @@
+evaluation_id,formation_id,type_formation,formateur_id,satisfaction,contenu,logistique,applicabilite,commentaire,langue,date
+UNIQUE001,F201,Lean Six Sigma,FOR11,5,5,5,5,"Formation exceptionnelle avec beaucoup d'apprentissages pratiques",FR,2024-12-18
+UNIQUE002,F202,SAP,FOR12,4,4,4,3,"التدريب جيد ومفيد للعمل اليومي",AR,2024-12-18
+UNIQUE003,F203,Soft Skills,FOR13,5,5,5,5,"Training kanet top! Nefaani bzaf f khedma.",DARIJA,2024-12-18

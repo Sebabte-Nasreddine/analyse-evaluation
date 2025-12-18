@@ -1,0 +1,4 @@
+evaluation_id,formation_id,type_formation,formateur_id,satisfaction,contenu,logistique,applicabilite,commentaire,langue,date
+FINAL001,F301,Communication,FOR21,5,5,5,5,"Formation excellente! Très enrichissante et pratique.",FR,2024-12-18
+FINAL002,F302,SAP,FOR22,4,4,4,4,"التدريب كان مفيداً جداً للعمل",AR,2024-12-18
+FINAL003,F303,Leadership,FOR23,5,5,5,5,"Top! Hadshi li kont kan9ellab 3lih.",DARIJA,2024-12-18
