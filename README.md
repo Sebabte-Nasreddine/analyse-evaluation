@@ -1,3 +1,4 @@
+بِسْمِ ٱللهِ ٱلرَّحْمَٰنِ ٱلرَّحِيْمِ
 # Système d'Analyse Automatisée des Évaluations de Formation
 
 Plateforme web moderne d'analyse automatisée des évaluations de formation avec support multilingue (Français, Arabe, Darija) utilisant le NLP et l'intelligence artificielle.
